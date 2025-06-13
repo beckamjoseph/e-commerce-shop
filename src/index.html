@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style2.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="/src/style.css" rel="stylesheet">
+    <title>Hat4all</title>
+  </head>
+
+  <body class="bg-white it scroll-smooth items-center">
+    <div class="main m-10">
+      <div class="header border-4 border-gray-100 rounded-4xl p-3 shadow-lg ">
+        <div class="flex justify-between items-center">
+        
+          <!-- Logo -->
+          <div class="nav-bar">
+            <h3 class="text-xl font-bold" style="font-family: 'Playfair Display', serif; font-weight: '700';">HAT4ALL</h3>
+          </div>
+
+          <!-- Navigation Links -->
+          <div class="nav">
+            <ul class="flex gap-10 text-lg" style="font-family: 'Poppins', sans-serif;">
+              <li><a href="#">Home</a></li>
+              <li><a href="collection.html">Collections</a></li>
+              <li><a href="about">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Search -->
+          <div class="search flex items-center border-2 border-gray-300 rounded-full px-3 bg-gray-100 w-50">
+            <i class="fa-solid fa-magnifying-glass text-black mr-2 "></i>
+            <input type="text" placeholder="Search" class="outline-none px-2 py-1" />
+          </div>
+
+          <!-- Icons -->
+          <div class="icon flex gap-4 text-xl">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </div>
+
+        </div>
+      </div>
+
+      <section class="flex items-center justify-between  h-screen w-screen px-5 py-5 mt-5 about" id="about" >
+        <div class="about max-w-xl ">
+          <h1 class="text-9xl font-serif " style="color: #16120b;">HAT4ALL</h1>
+          <h3 class="text-4xl mt-2 text-center font-medium font-sans">Hat's driven by purpose</h3>
+          <div class=" text-center justify-center mt-5 font-sans font-light">
+          <p class="text-large leading-7 text-black">
+             At <strong>HAT4ALL</strong>, we craft premium bucket hats <br> that blend timeless elegance with modern style. <br> Designed for every season and every story, our hats deliver <br> comfort, durability, and effortless sophistication. 
+             <br> </br>
+             <em>Because true style belongs to everyone.</em>
+          </p>
+          <div>
+            <button class="bg-black text-white border-2  m-2 p-3 px-8 font-serif rounded-full hover:ease-in-out mt-2 items-center hover:text-black hover:bg-white "><a href="#">SHOP NOW</a></button>
+          </div>
+          </div>
+
+        </div>
+        <div class="img bg-red-50 mt-10  m-20 h-full">
+          <img src="assets/mainpic.jpg" class=" h-full" style="height: 41rem;">
+        </div>
+      </section>
+
+
+      <!-- hero casrd section -->
+      <section class="h-screen w-full  p-0 mt-0">
+  <div class="grid grid-cols-2 gap-4 h-full">
+
+    <!-- LEFT SIDE -->
+    <div class="grid grid-rows-2 gap-8">
+
+      <!-- Top Text Block -->
+      <div class="bg-[#c5c6c8] rounded-lg p-8 flex flex-col justify-center">
+        <h1 class="text-6xl font-extrabold leading-tight">
+          FOR <br> EVERYONE BUT <br> NOT ANYONE
+        </h1>
+        <p class="mt-6 text-gray-600">
+          We establish personal relationships with our boutiques, to make sure each is vetted for a stress-free shopping experience.
+        </p>
+      </div>
+
+      <!-- Bottom Grid Images -->
+      <div class="grid grid-cols-2 gap-8">
+        <div class="relative">
+          <img src="assets/Reversible Bucket Hat QS.jpg" class="w-full h-full object-cover rounded-lg">
+          <div class="absolute bottom-4 left-4 text-white text-xl font-bold">#RIPSTOP</div>
+        </div>
+        <div class="relative">
+          <img src="assets/love.jpg" class="w-full h-full object-cover rounded-lg">
+          <div class="absolute bottom-4 left-4 text-white text-xl font-bold">#INSULATED</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="relative">
+      <img src="assets/this.jpg" class="w-full h-full object-cover rounded-lg">
+      
+      <!-- Overlay Buttons -->
+      <div class="absolute bottom-8 left-8 flex gap-2 items-center">
+        <button class="bg-white py-2 px-6 rounded-full font-semibold"><a href="#">LEARN MORE</a></button>
+        <button class="bg-black text-white py-2 px-6 rounded-full font-semibold items-center"><a href="#">CONTACT US</a></button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
